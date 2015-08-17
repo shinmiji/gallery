@@ -1,0 +1,69 @@
+@charset "utf-8";
+
+html, body, ul, li, a,p {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	color: gray;
+}
+div.business {
+	margin: auto;
+	width: 1221px;
+	overflow: hidden; 
+}
+.business > ul {
+	/* width: 4884px; */
+	position: relative;
+	left: 0;
+	transition: left 0.8s ease-in 0s;
+}
+
+div.button_area {
+	text-align: center;
+}
+.button_area > a {
+	background-repeat: no-repeat;
+	background-position: 0px -25px;
+	background-image: url(../images/icon02.png);
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+}
+.button_area > a.on {
+	background-position: 0px 0px;
+}
+.business > ul > li {
+	list-style: none;
+	width: 407px;
+	font-size: 0px;
+	float: left;
+	transition: 0.4s ease-in 0.8s;
+}
+.business > ul > li.on {
+	/* display: block; */
+}
+.business > ul > li > img {
+	height: 207px;
+	width: 100%;
+}
+.business > ul > li > a {
+	background-image: url('../images/bg01.png'); 
+	z-index: 10;
+	position: relative;
+	margin-top:-15px;
+	display: block;
+	height: 115px;
+	font-size: 16px;
+	padding: 35px 14px 15px 28px;
+	border-right: 1px solid #ececec;
+	border-bottom: 1px solid #ececec;
+}
+li > a > strong {
+	margin-bottom: 7px;
+    	display: inline-block;
+}
+li > a > p {
+	 font-size: 13.5px;
+	 background: url('../images/icon01.png') no-repeat 320px bottom; 
+	 height: 36px;
+}
