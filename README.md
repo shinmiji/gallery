@@ -1,7 +1,7 @@
 ## Gallery
 
 #### Gallery 구현 목표
-- JavaScript를 이용하여 자동 회전이 가능한 갤러리 구현 `( jQueyr 사용 X )`
+- JavaScript를 이용하여 자동 회전이 가능한 갤러리 구현 `( jQuery 사용 X )`
 - 주요 사용 함수
 	- .querySelector() / .querySelectorAll()
 	- .add() / .remve()
